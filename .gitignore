@@ -1,0 +1,17 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.log
+.DS_Store
+
+# local data, never commit
+data/
+backups/
+demo_credentials.txt
+*.dump
+*.enc
+out/
